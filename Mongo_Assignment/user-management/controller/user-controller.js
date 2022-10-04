@@ -1,5 +1,6 @@
 const User = require("../model/User");
 const logger = require("../config/logger");
+const inputValidator = require("../services/inputValidator");
 
 //get all users
 const getAllUsers = async (req, res, next) => {
